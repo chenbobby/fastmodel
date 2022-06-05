@@ -5,40 +5,43 @@
 
 ---
 
-## Installation
+## Usage
 
 ```sh
 pip install fastmodel
+fastmodel serve
 ```
 
-## Setup for Development
+## Development Guides
 
-### 0. [Prerequisite] Ensure that you have Python installed.
+### Setup for Development
+
+#### 0. (Prerequisites) Ensure that you have Python installed.
 
 ```sh
 python --version
 ```
 
-### 1. Clone the repository.
+#### 1. Clone the repository.
 
 ```sh
 git clone https://github.com/chenbobby/fastmodel
 cd fastmodel
 ```
 
-### 2. Run the development setup script.
+#### 2. Run the development setup script.
 
 ```sh
 scripts/setup_dev.sh
 ```
 
-### 3. Activate your virtual environment.
+#### 3. Activate your virtual environment.
 
 ```sh
 source .venv/bin/activate
 ```
 
-## Run the HTTP server in development mode
+### Run the HTTP server in development mode
 
 ```sh
 scripts/run_dev.sh
